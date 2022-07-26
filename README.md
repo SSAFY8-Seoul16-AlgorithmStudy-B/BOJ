@@ -1,10 +1,12 @@
 # BOJ
-Baekjoon Online Judge
+- Baekjoon Online Judge 
+- 서울 16반 알고리즘 스터디 B팀
+- [[싸피 8기] 서울 16반 알고리즘 스터디 B팀 그룹 바로가기](https://www.acmicpc.net/group/15323)
+
 
 ## pre-requirements
 - [Baekjoon Online Judge Account](https://www.acmicpc.net/)
 - [Git](https://git-scm.com/)
-
 ## members
 
 
@@ -59,7 +61,7 @@ Baekjoon Online Judge
 
 
 ## workflow
-1. 백준 > 그룹 > [싸피 8기] 서울 16반 알고리즘 스터디 B팀 > 연습 > 해당 주차를 선택합니다. 
+1. 백준 > 그룹 > [[싸피 8기] 서울 16반 알고리즘 스터디 B팀](https://www.acmicpc.net/group/15323) > 연습 > 해당 주차를 선택합니다. 
 2. 작성한 코드를 자신의 github id 폴더에 저장합니다.
 4. 저장한 파일을 개인별 Fork한 Repo의 main으로 PUSH합니다.
 5. 개인별 깃허브 Repo에 PUSH된 main Branch를 스터디 팀 BOJ 저장소의 main Branch로 PR를 요청합니다.
