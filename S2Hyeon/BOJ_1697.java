@@ -14,7 +14,7 @@ public class BOJ_1697 {
         StringTokenizer st = new StringTokenizer(br.readLine());
         N = Integer.parseInt(st.nextToken());
         K = Integer.parseInt(st.nextToken());
-        visited = new boolean[100001 * 2];
+        visited = new boolean[100001];
 
         bfs(N);
         System.out.println(second);
