@@ -34,14 +34,16 @@ public class BOJ_1697 {
                 }
                 if (cur - 1 >= 0 && !visited[cur - 1]) {
                     queue.offer(cur - 1);
+                    visited[cur - 1] = true;
                 }
                 if (cur + 1 < visited.length && !visited[cur + 1]) {
                     queue.offer(cur + 1);
+                    visited[cur + 1] = true;
                 }
                 if (cur * 2 < visited.length && !visited[cur * 2]) {
                     queue.offer(cur * 2);
+                    visited[cur * 2] = true;
                 }
-                visited[cur] = true;
             }
             second++;
         }
