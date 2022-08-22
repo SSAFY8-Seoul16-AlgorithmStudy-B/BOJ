@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-//BOJ_17070 파이프 옮기기 1
+// BOJ_17070 파이프 옮기기 1
 public class BOJ_17070 {
 
     static int map[][];
