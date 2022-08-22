@@ -82,7 +82,7 @@ public class BOJ_17281 {
                 else {  // 아웃이 아닌 진루일 때
                     // 현재 주자들 진루 ex) 1루, 3루 있을 때(01010) 안타
                     // 비트 정보 : 오른쪽부터 진루할 타자, 1루, 2루, 3루, 홈
-                    runnerInfo++;   // 진루할 타자 추가(1011)
+                    runnerInfo++;   // 진루할 타자 추가(01011)
                     for(int hit = 0; hit < hitterScore; hit++) {    // n루타만큼 반복
                         runnerInfo = runnerInfo << 1;   // 주자 진루(10110)
                         if(runnerInfo > 15) {   // 홈에 도착 시(10110)
