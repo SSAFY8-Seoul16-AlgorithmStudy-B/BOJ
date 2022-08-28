@@ -17,7 +17,7 @@ public class BOJ_17135 {
 	static int[] dy = {-1, 0, 1};
 	static int maxDeath;
 	
-	public static class Position {
+	public static class Position {	// 행, 열을 저장할 클래스
 		int row, col;
 		public Position(int row, int col) {
 			this.row = row;
