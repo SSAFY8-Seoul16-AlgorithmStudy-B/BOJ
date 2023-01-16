@@ -1,1 +1,3 @@
 /.metadata/
+#mac DS_Store file ignore
+.DS_Store
